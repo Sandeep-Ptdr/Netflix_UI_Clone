@@ -1,0 +1,374 @@
+ @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+ }
+
+ body {
+     background-color: black;
+     color: white;
+ }
+
+ .main {
+     background-image: url("assets/imgs/bg.jpg");
+     height: 90vh;
+     width: 100%;
+     position: relative;
+     background-position: center center;
+     background-size: max(1500px, 100vw);
+     background-repeat: no-repeat;
+ }
+
+ .main .box {
+     height: 90vh;
+     width: 100%;
+     opacity: 0.6;
+     background-color: black;
+     position: absolute;
+     top: 0;
+ }
+
+ nav {
+     /* background-color: red; */
+     max-width: 70vw;
+     height: 70px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: auto;
+ }
+
+ nav span img {
+     color: red;
+     width: 135px;
+     height: 60px;
+     position: relative;
+     z-index: 10;
+ }
+
+ nav button {
+     position: relative;
+     z-index: 10;
+ }
+
+ .title {
+     color: white;
+     height: calc(90vh - 70px);
+     font-family: "Martel Sans", sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     gap: 15px;
+ }
+
+ .title> :nth-child(1) {
+     font-size: 48px;
+     font-weight: 900;
+
+ }
+
+ .title> :nth-child(2) {
+     font-size: 24px;
+     font-weight: 400;
+ }
+
+ .title> :nth-child(3) {
+     font-size: 20px;
+     font-weight: 400;
+ }
+
+ .title .email {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     /* border: solid red 1px; */
+     width: 50vw;
+     height: 9vh;
+ }
+
+ .title .email input {
+     width: 65%;
+     height: 95%;
+     font-size: 20px;
+
+ }
+
+ .title .email button {
+     width: 29%;
+     height: 95%;
+     font-size: 24px;
+     font-weight: 500;
+ }
+
+ .btn-red {
+     color: white;
+     background-color: red;
+     border: none;
+     border-radius: 4px;
+ }
+
+ .btn-sn {
+     padding: 7px 18px 7px 18px;
+     font-weight: 600;
+ }
+
+ .btn-in {
+
+     font-weight: 400;
+     color: white;
+ }
+
+ .btn {
+     background-color: rgba(0, 0, 0, 0.364);
+     color: white;
+     border: solid white 1px;
+     border-radius: 4px;
+
+ }
+
+ .btn-red:hover {
+     /* background-color: #7c333368;*/
+     transition: all ease 0.2s;
+     color: white;
+     cursor: pointer;
+     opacity: 0.8;
+ }
+
+ /* main content start from here */
+
+ .seperation {
+     background-color: grey;
+     height: 5px;
+     width: 100%;
+     opacity: 0.5;
+     position: relative;
+     z-index: 11;
+ }
+
+ .first {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     max-width: 80vw;
+     margin: auto;
+ }
+
+
+
+ .first>div {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+ .first>div :nth-child(1) {
+     font-size: 48px;
+     font-weight: 600;
+ }
+
+ .first>div :nth-child(2) {
+     font-size: 24px;
+ }
+
+ .secImg {
+     display: flex;
+     position: relative;
+     z-index: 10;
+ }
+
+
+ .secImg img {
+     width: 40vw;
+     position: relative;
+     z-index: 10;
+ }
+
+ .secImg video {
+     position: absolute;
+     right: 60px;
+     top: 75px;
+     width: 30vw;
+ }
+
+ .third .secImg video {
+     width: 25vw;
+     position: absolute;
+     top: 34px;
+     right: 100px;
+
+
+ }
+
+ .faqSec {
+     width: 90vw;
+     margin: auto;
+     /* border: 1px solid red; */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     /* gap: 10px; */
+ }
+
+ .faqSec .faqHed h2 {
+     font-size: 48px;
+     font-weight: 600;
+     margin: 30px auto 0;
+ }
+
+ .faqQue {
+     /* border: solid red 1px; */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #2d2d2d;
+     width: 85%;
+     padding: 20px;
+     font-size: 24px;
+     font-weight: 500;
+     margin-bottom: 10px;
+
+ }
+
+ .faqQue:hover {
+     transition: all ease 0.5s;
+     background-color: #4f4e4e;
+     color: white;
+     cursor: pointer;
+ }
+
+ footer {
+     margin: auto;
+     width: 90vw;
+     height: 60vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+ }
+
+ .footerLinks {
+     /* border: solid red 1px; */
+     margin: 0 auto;
+     min-width: 90%;
+     height: 50%;
+     display: grid;
+     grid-template-columns: 15vw 15vw 15vw 10vw;
+     row-gap: 15px;
+     column-gap: 10%;
+ }
+
+ .footerLinks a {
+     color: rgba(255, 255, 255, 0.61);
+     font-size: 14px;
+ }
+
+
+
+ footer .btn-div-btm {
+     width: 90%;
+     /* border: solid red 1px; */
+     margin: 5px auto;
+ }
+
+ footer .netflix {
+     align-self: flex-start;
+
+     margin: 10px 0 0 55px;
+ }
+
+ footer .netflix span {
+     font-size: 14px;
+     color: rgba(255, 255, 255, 0.61);
+ }
+
+ @media (max-width: 480px) {
+
+     .main {
+         height: 70vh;
+     }
+     nav{
+        max-width: 90vw;
+     }
+     .main .box{
+        height: 70vh;
+     }
+
+     .title {
+         height: calc(70vh - 70px);
+     }
+
+     .title> :nth-child(1) {
+         font-size: 34px;
+         padding: 0 21px 0 18px;
+
+     }
+
+     .title> :nth-child(2) {
+
+         padding: 0 21px 0 18px;
+     }
+
+     .title> :nth-child(3) {
+
+         padding: 0 21px 0 18px;
+     }
+
+     .title .email {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .title .email input {
+        padding: 17px 78px 17px 23px;
+        margin: auto;
+     }
+
+     .title .email button {
+         padding: 10px 10px 10px 10px;
+         margin: 10px;
+         width: 50%;
+         
+     }
+
+     .first {
+         flex-wrap: wrap;
+         margin: 20px auto 20px;
+     }
+
+     .secImg img {
+         width: 395px;
+     }
+
+     .secImg video {
+         position: absolute;
+         top: 65px;
+         right: 56px;
+
+         width: 281px;
+     }
+
+     .third .secImg video {
+         width: 255px;
+         position: absolute;
+         top: 21px;
+         right: 70px;
+
+     }
+
+     .footerLinks {
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+     footer .btn-div-btm {
+        width: 100%;
+    }
+
+    footer .netflix {
+        margin: 0;
+    }
+}
