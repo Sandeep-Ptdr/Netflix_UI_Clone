@@ -19,39 +19,40 @@ This project is a clone of the Netflix user interface created to practice and sh
 
 To get a local copy up and running, follow these simple steps.
 
-### Prerequisites
+## Prerequisites
 
 You need a web browser to view the project.
 
-### Clone the Repository
+## Clone the Repository
 
 ``
 git clone https://github.com/yourusername/netflix-ui-clone.git
 ``
-### Navigate to the Project Directory
+## Navigate to the Project Directory
 ``
 cd netflix-ui-clone
 ``
-### Usage
+## Usage
 Open the index.html file in your web browser to view the Netflix UI clone.
 ``
 open index.html
 ``
-### Contributing
+## Contributing
   Contributions are what make the open source community such an amazing place to be, learn, inspire, and create. Any           contributions you make are greatly appreciated.
   
-  -1.Fork the Project
-  -2.Create your Feature Branch (git checkout -b feature/AmazingFeature)
-  -3.Commit your Changes (git commit -m 'Add some AmazingFeature')
-  -4.Push to the Branch (git push origin feature/AmazingFeature)
-  -5.Open a Pull Request
+  #### 1. Fork the Project
+  #### 2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+  #### 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+  #### 4. Push to the Branch (git push origin feature/AmazingFeature)
+  #### 5. Open a Pull Request
   
-### License
+  
+## License
   Distributed under the MIT License. See LICENSE for more information.
   
-###Acknowledgements
-  -Netflix - The original inspiration for this project.
-  -Font Awesome - For providing the icons used in the project.
-  -Google Fonts - For the fonts used in the project.
-  -Unsplash - For the placeholder images used in the project.
+## Acknowledgements
+  #### - Netflix - The original inspiration for this project.
+  #### - Font Awesome - For providing the icons used in the project.
+  #### - Google Fonts - For the fonts used in the project.
+  #### - Unsplash - For the placeholder images used in the project.
 
